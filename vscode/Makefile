@@ -1,7 +1,7 @@
 all:
 	# Install dependencies
 	./scripts/npm.sh install
-	./scripts/npm.sh install gm
+	./scripts/npm.sh add gm
 	# build vscode
 	./node_modules/.bin/gulp vscode-linux-${VSCODE_ARCH}-prepare-flatpak --max_old_space_size=4096
 
