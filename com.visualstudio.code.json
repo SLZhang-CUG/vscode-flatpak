@@ -5,7 +5,7 @@
     "runtime": "com.deepin.Platform",
     "runtime-version": "15.5.2",
     "sdk": "com.deepin.Sdk",
-    "command": "code",
+    "command": "code-oss",
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
