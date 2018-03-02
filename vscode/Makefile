@@ -7,6 +7,6 @@ all:
 
 install:
 	cp -ar .build/linux/flatpak/${FLATPAK_ARCH}/* /app/
-	ln -sf /app/share/code-oss/bin/code-oss /app/bin/code-oss
+	ln -sf /app/share/code/bin/code-oss /app/bin/code-oss
 
 .PHONY: all install
